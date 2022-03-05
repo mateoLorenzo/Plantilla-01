@@ -21,6 +21,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
+   text-decoration: none;
 }
 .demoSquare:hover {
    cursor: pointer;
@@ -29,5 +30,6 @@
 }
 
 .demoSquareText {
-   color: black
+   color: black;
+   text-decoration: none;
 }
