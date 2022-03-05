@@ -1,0 +1,32 @@
+.typographyDemoContainer {
+   margin-top: 100px;
+   text-align: center;
+}
+
+.demoText-300 {
+   font-weight: 300;
+}
+
+.demoText-400 {
+   font-weight: 400;
+}
+
+.demoText-500 {
+   font-weight: 500;
+}
+
+.demoText-600 {
+   font-weight: 600;
+}
+
+.demoText-700 {
+   font-weight: 700;
+}
+
+.demoText-800 {
+   font-weight: 800;
+}
+
+.demoText-900 {
+   font-weight: 900;
+}
