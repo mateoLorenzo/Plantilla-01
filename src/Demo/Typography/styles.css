@@ -1,0 +1,56 @@
+.demoSquareContainer {
+   width: 200px;
+   height: 200px;
+   position: relative;
+   /* margin-left: 50px; */
+}
+
+.demoSquare {
+   width: 95%;
+   height: 80%;
+   bottom: 0;
+   box-shadow: 0px 0px 5px 3px  rgb(189, 189, 189);
+   transition: .22s all ease;
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.demoSquare:hover {
+   cursor: pointer;
+   box-shadow: 0px 0px 10px 4px  rgb(189, 189, 189);
+   bottom: 10px;
+}
+
+.demoSquareText {
+   font-weight: 500;
+}
+
+.poppins-300 {
+   font-weight: 300;
+}
+ 
+.poppins-400 {
+   font-weight: 400;
+}
+ 
+.poppins-500 {
+   font-weight: 500;
+}
+ 
+.poppins-600 {
+   font-weight: 600;
+}
+ 
+.poppins-700 {
+   font-weight: 700;
+}
+ 
+.poppins-800 {
+   font-weight: 800;
+}
+ 
+.poppins-900 {
+   font-weight: 900;
+}
+ 
