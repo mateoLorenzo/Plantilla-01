@@ -1,11 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import App from './App';
+import NavigationDemoScreen from './Demo/Navigation';
 import reportWebVitals from './reportWebVitals';
+import UrlNotFoundScreen from './Modules/UrlNotFound/Screens/index';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="navigationDemo" element={<NavigationDemoScreen />} />
+        <Route path="*" element={<UrlNotFoundScreen />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
