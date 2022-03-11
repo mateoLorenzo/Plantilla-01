@@ -8,6 +8,7 @@ const DemoMainScreen = () => {
          <div className='demoBoxesContainer'>
             <DemoBox demoTitle="Navigation" navigationUrl="navigationDemo" />
             <DemoBox demoTitle="Typography" navigationUrl="typographyDemo" />
+            <DemoBox demoTitle="Iconography" navigationUrl="iconographyDemo" />
          </div>
       </div>
    )
