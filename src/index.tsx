@@ -6,6 +6,7 @@ import NavigationDemoScreen from './Demo/Navigation';
 import reportWebVitals from './reportWebVitals';
 import UrlNotFoundScreen from './Modules/UrlNotFound/Screens/index';
 import TypographyDemoScreen from './Demo/Typography/index';
+import CustomIconDemoScreen from './Demo/Iconography/index';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,6 +15,7 @@ ReactDOM.render(
         <Route path="/" element={<App />} />
         <Route path="navigationDemo" element={<NavigationDemoScreen />} />
         <Route path="typographyDemo" element={<TypographyDemoScreen />} />
+        <Route path="iconographyDemo" element={<CustomIconDemoScreen/>} />
         <Route path="*" element={<UrlNotFoundScreen />} />
       </Routes>
     </BrowserRouter>
