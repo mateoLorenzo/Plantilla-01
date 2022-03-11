@@ -27,7 +27,6 @@ export const makeStyles = ():makeStyles => {
          flexDirection: 'column',
          alignItems: 'center',
          margin: "0px 5px",
-         // backgroundColor: 'red',
          width: "100px"
       },
    }
